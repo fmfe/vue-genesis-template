@@ -1,0 +1,55 @@
+{
+    "name": "vue-genesis-templace",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node genesis.dev -p=tsconfig.json",
+        "dev:ts": "NODE_ENV=production tsc --build packages/**/tsconfig.json --watch",
+        "build": "rm -rf dist && NODE_ENV=production ts-node genesis.build -p=tsconfig.json",
+        "start": "NODE_ENV=production ts-node genesis.prod -p=tsconfig.json",
+        "lint": "npm run lint:js && npm run lint:css",
+        "lint:js": "eslint . --ext .js,.ts,.vue --fix",
+        "lint:css": "stylelint . --syntax less --fix --ignore-path ./.stylelintignore | stylelint . --custom-syntax postcss-html --fix"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fmfe/vue-genesis-templace.git"
+    },
+    "author": "lzxb",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fmfe/vue-genesis-templace/issues"
+    },
+    "homepage": "https://github.com/fmfe/vue-genesis-templace#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{ts,js}": [
+            "eslint --ext .js,.ts --fix",
+            "git add"
+        ],
+        "*.{css,less}": [
+            "stylelint --syntax less --fix",
+            "git add"
+        ],
+        "*.{vue}": [
+            "eslint --ext .js,.ts --fix",
+            "stylelint --custom-syntax postcss-html --fix",
+            "git add"
+        ]
+    },
+    "devDependencies": {
+        "@fmfe/genesis-lint": "0.0.8",
+        "@fmfe/genesis-compiler": "0.0.8",
+        "vue-property-decorator": "^8.4.0"
+    },
+    "dependencies": {
+        "@fmfe/genesis-core": "0.0.8",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.8.2"
+    }
+}
