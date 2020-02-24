@@ -15,8 +15,8 @@
         "type": "git",
         "url": "git+https://github.com/fmfe/vue-genesis-templace.git"
     },
-    "author": "lzxb",
-    "license": "ISC",
+    "author": "Followme",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/fmfe/vue-genesis-templace/issues"
     },
