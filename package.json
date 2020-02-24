@@ -42,12 +42,12 @@
         ]
     },
     "devDependencies": {
-        "@fmfe/genesis-lint": "0.0.8",
-        "@fmfe/genesis-compiler": "0.0.8",
+        "@fmfe/genesis-lint": "^0.0.10",
+        "@fmfe/genesis-compiler": "^0.0.10",
         "vue-property-decorator": "^8.4.0"
     },
     "dependencies": {
-        "@fmfe/genesis-core": "0.0.8",
+        "@fmfe/genesis-core": "^0.0.10",
         "ts-node": "^8.6.2",
         "typescript": "^3.8.2"
     }
