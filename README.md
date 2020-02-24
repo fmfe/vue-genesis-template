@@ -15,4 +15,4 @@ npm run start
 ```
 
 ## 关于 Genesis 
-这是一个为 Followme 5.0诞生的Vue SSR框架，也许日后我们会开源，也是它会🔥呢？
+这是一个为 [Followme 5.0](https://www.baidu.com/s?&wd=Followme+5.0)诞生的Vue SSR框架，也许日后我们会开源，也许日后会🔥呢？
