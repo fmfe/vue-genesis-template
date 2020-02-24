@@ -5,7 +5,6 @@
     "main": "index.js",
     "scripts": {
         "dev": "ts-node genesis.dev -p=tsconfig.json",
-        "dev:ts": "NODE_ENV=production tsc --build packages/**/tsconfig.json --watch",
         "build": "rm -rf dist && NODE_ENV=production ts-node genesis.build -p=tsconfig.json",
         "start": "NODE_ENV=production ts-node genesis.prod -p=tsconfig.json",
         "lint": "npm run lint:js && npm run lint:css",
