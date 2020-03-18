@@ -1,3 +1,3 @@
-import { Genesis } from '@fmfe/genesis-core';
+import { SSR } from '@fmfe/genesis-core';
 
-export const ssr = new Genesis({});
+export const ssr = new SSR({});

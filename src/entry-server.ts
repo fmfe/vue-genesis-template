@@ -1,7 +1,7 @@
-import { GenesisTypes } from '@fmfe/genesis-core';
+import Genesis from '@fmfe/genesis-core';
 import App from './app.vue';
 
-export default (ctx: GenesisTypes.RenderContext) => {
+export default (ctx: Genesis.RenderContext) => {
     ctx.data.state.title = 'vue-genesis-templace';
     return new App({
         propsData: {

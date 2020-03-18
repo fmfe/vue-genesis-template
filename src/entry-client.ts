@@ -1,11 +1,21 @@
 import App from './app.vue';
 
-const data = window[process.env.GENESIS_NAME!];
+export interface Context {
+    el: Element;
+    name: string;
+    id: string;
 
-export default new App({
-    propsData: {
-        name: data.name,
-        title: data.state.title,
-        url: data.url
-    }
-});
+    state: { [x: string]: any };
+    url: string;
+}
+
+export default (context: Context) => {
+    return new App({
+        el: context.el,
+        propsData: {
+            name: context.name,
+            title: context.state.title,
+            url: context.url
+        }
+    });
+};
