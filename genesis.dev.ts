@@ -1,7 +1,14 @@
-import { DevServer } from '@fmfe/genesis-compiler';
-import { ssr } from './genesis';
+import { Watch } from '@fmfe/genesis-compiler';
+import { ssr, app, startApp } from './genesis';
 
-const start = () => {
-    return new DevServer(ssr).start();
+const start = async () => {
+    const watch = new Watch(ssr);
+    await watch.start();
+    const renderer = watch.renderer;
+    // 开发时使用的中间件
+    app.use(watch.devMiddleware);
+    app.use(watch.hotMiddleware);
+    // 拿到渲染器之后，启动服务
+    startApp(renderer);
 };
-export default start();
+start();

@@ -4,13 +4,13 @@
 ## 启动
 ```base
 # 安装依赖
-npm install
+yarn
 # 开发
-npm run dev
+yarn dev
 # 编译
-npm run build
+yarn build
 # 运行编译后的程序
-npm run start
+yarn start
 
 ```
 
