@@ -859,10 +859,10 @@
   resolved "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@fmfe/genesis-compiler@0.0.37-alpha.5":
-  version "0.0.37-alpha.5"
-  resolved "https://registry.npmjs.org/@fmfe/genesis-compiler/-/genesis-compiler-0.0.37-alpha.5.tgz#f8a3f551b687726c43b0ec12d68c6fdbf751575c"
-  integrity sha512-YF5faMBSRovjzN3IcJCJMRT9C8xJALgadBdZvHn3ntxAETs1JxENSqK7HAonbmprlTG/isseTNbyt+12caigUQ==
+"@fmfe/genesis-compiler@0.0.41-beta.8":
+  version "0.0.41-beta.8"
+  resolved "http://npm.followme.com/@fmfe%2fgenesis-compiler/-/genesis-compiler-0.0.41-beta.8.tgz#a253e6e6b0c43249ea88d4eb35b99c226934203d"
+  integrity sha1-olPm5rDEMknqiNTrNbmcImk0ID0=
   dependencies:
     "@babel/core" "^7.8.4"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
@@ -901,20 +901,20 @@
     webpackbar "^4.0.0"
     write "^2.0.0"
 
-"@fmfe/genesis-core@0.0.37-alpha.5":
-  version "0.0.37-alpha.5"
-  resolved "https://registry.npmjs.org/@fmfe/genesis-core/-/genesis-core-0.0.37-alpha.5.tgz#d7dcbaabaffc9ad89e2c281dff9d6d921598ca1e"
-  integrity sha512-rU439xTdeGz7jpOh/aXTxMBCTLgAo60+o8Tw+h6ycYIibIoa63fKJ1Z+BKa7Gru4BpNN3TSyRefw4tx0KNY1uw==
+"@fmfe/genesis-core@0.0.41-beta.8":
+  version "0.0.41-beta.8"
+  resolved "http://npm.followme.com/@fmfe%2fgenesis-core/-/genesis-core-0.0.41-beta.8.tgz#bf2e196bd8dbb0572531fb4e8d58d53d93f2e611"
+  integrity sha1-vy4Za9jbsFclMftOjVjVPZPy5hE=
   dependencies:
     ejs "^3.0.1"
     serialize-javascript "^3.0.0"
     vue "^2.6.11"
     vue-server-renderer "^2.6.11"
 
-"@fmfe/genesis-lint@0.0.37-alpha.5":
-  version "0.0.37-alpha.5"
-  resolved "https://registry.npmjs.org/@fmfe/genesis-lint/-/genesis-lint-0.0.37-alpha.5.tgz#66a304308a0a63906ac1e3b5f745e73a87c5a250"
-  integrity sha512-3UkD2kBq50hBCtSt0N3u2a4NQBa3aT78fD5SpTH7TrtzXXxY1oRaa2IQnCKCUtPn0AbD9DcxNGLoRRnz3ByONA==
+"@fmfe/genesis-lint@0.0.41-beta.8":
+  version "0.0.41-beta.8"
+  resolved "http://npm.followme.com/@fmfe%2fgenesis-lint/-/genesis-lint-0.0.41-beta.8.tgz#33b322ba9c89b3a2427078678c82e9dc9e7c5a0d"
+  integrity sha1-M7MiupyJs6JCcHhnjILp3J58Wg0=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.20.0"
     "@typescript-eslint/parser" "^2.20.0"
