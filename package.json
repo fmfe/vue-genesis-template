@@ -1,5 +1,5 @@
 {
-    "name": "vue-genesis-templace",
+    "name": "vue-genesis-template",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -13,14 +13,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fmfe/vue-genesis-templace.git"
+        "url": "git+https://github.com/fmfe/vue-genesis-template.git"
     },
     "author": "Followme",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fmfe/vue-genesis-templace/issues"
+        "url": "https://github.com/fmfe/vue-genesis-template/issues"
     },
-    "homepage": "https://github.com/fmfe/vue-genesis-templace#readme",
+    "homepage": "https://github.com/fmfe/vue-genesis-template#readme",
     "husky": {
         "hooks": {
             "pre-commit": "lint-staged"
